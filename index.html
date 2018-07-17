@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Broadway Design</title>
+  <link rel="stylesheet" href="resources/styles/style.css">
+</head>
+<body>
+
   <head>
-    <meta charset="utf-8">
-    <title>Broadway Design</title>
-    <link rel="stylesheet" href="resources/styles/style.css">
+    <h1>Broadway Design</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Process</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
   </head>
-  <body>
 
-    <head>
-      <h1>Broadway Design</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Process</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </head>
-
-    <section>
+  <section>
+    <div class="about">
       <h2>Our Process</h2>
-      <p><img src="resources/images/itentify.svg" alt="Identify Icon"></p>
+      <p><img src="resources/images/identify.svg" alt="Identify Icon"></p>
       <h3>Identify</h3>
       <p>We focus on the most important details.</p>
       <h2>Our Process</h2>
@@ -33,9 +34,11 @@
       <p><img src="resources/images/execute.svg" alt="Execute Icon"></p>
       <h3>Execute</h3>
       <p>We put everything we have into our work.</p>
+    </div>
 
-      <h2>Designed in New York</h2>
+    <h2 id="styled-heading" >Designed in New York</h2>
 
+    <div class="info">
       <h2>Portfolio</h2>
       <p>Coming Soon</p>
 
@@ -46,18 +49,17 @@
       <p>Phone: (555)-555-5555</p>
       <p>E-mail: test@example.com</p>
       <p>Twitter: @test</p>
-    </section>
+    </div>
+  </section>
 
-    <footer>
-      <p>&copy; Broadway 2017</p>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Work</a></li>
-        <li><a href="#">Team</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </footer>    
+  <footer>
+    <p id="copyright">&copy; Broadway 2017</p>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Work</a>
+    <a href="#">Team</a>
+    <a href="#">Contact</a>
+  </footer>
 
-  </body>
+</body>
 </html>
